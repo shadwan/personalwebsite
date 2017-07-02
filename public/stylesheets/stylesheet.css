@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.cotainer-fluid{
+	position: relative;
+}
+
+.box {
+	background: grey;
+	height: 200px;
+	width: 49%;
+	margin: 1px ;
+	float:left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.allcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33.3%;
+    max-width: 670px;
+    transform: translate(-50%, -50%);
+}
+
+.white {
+	color: white;
+}
+
+.contentcenter{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
